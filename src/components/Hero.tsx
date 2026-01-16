@@ -39,13 +39,17 @@ export function Hero() {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="btn-teal group">
-              Ver Ofertas do Dia
-              <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button size="lg" variant="outline" className="border-primary/20 hover:bg-primary/5">
-              Explorar Categorias
-            </Button>
+            <a href="#ofertas-do-dia">
+              <Button size="lg" className="btn-teal group w-full sm:w-auto">
+                Ver Ofertas do Dia
+                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+              </Button>
+            </a>
+            <a href="#produtos">
+              <Button size="lg" variant="outline" className="border-primary/20 hover:bg-primary/5 w-full sm:w-auto">
+                Explorar Categorias
+              </Button>
+            </a>
           </div>
 
           {/* Trust badges */}

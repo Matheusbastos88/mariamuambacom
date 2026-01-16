@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 const categories = [
-  { name: "Cama", href: "#cama" },
-  { name: "Mesa", href: "#mesa" },
-  { name: "Banho", href: "#banho" },
-  { name: "Bazar", href: "#bazar" },
-  { name: "Ofertas do Dia", href: "#ofertas", isHighlight: true },
+  { name: "Cama", href: "#produtos", filter: "cama" },
+  { name: "Mesa", href: "#produtos", filter: "mesa" },
+  { name: "Banho", href: "#produtos", filter: "banho" },
+  { name: "Bazar", href: "#produtos", filter: "bazar" },
+  { name: "Ofertas do Dia", href: "#ofertas-do-dia", isHighlight: true },
 ];
 
 export function Header() {
