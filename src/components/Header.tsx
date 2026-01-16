@@ -6,7 +6,8 @@ import { Input } from "@/components/ui/input";
 const categories = [
   { name: "Cama", href: "#produtos", filter: "cama" },
   { name: "Mesa", href: "#produtos", filter: "mesa" },
-  { name: "Banho", href: "#produtos", filter: "banho" },
+  { name: "Banho", href: "#banho", filter: "banho" },
+  { name: "Para o Banho", href: "#para-o-banho", filter: "para-banho" },
   { name: "Bazar", href: "#produtos", filter: "bazar" },
   { name: "Ofertas do Dia", href: "#ofertas-do-dia", isHighlight: true },
 ];
